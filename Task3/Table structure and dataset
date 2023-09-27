@@ -30,3 +30,15 @@ VALUES
  (8, 'Sarah', 'White', 'Female', 'Chicago', 50),
  (9, 'James', 'Harris', 'Male', 'Houston', 37),
  (10, 'Maria', 'Martin', 'Female', 'Miami', 24);
+
+Write SQL queries to answer the following questions using the customers table:
+1. Retrieve the first and last names of all customers.
+2. Find the total number of customers in the dataset.
+3. Get the names of male customers.
+4. Find customers who are aged 30 or older.
+5. List customers from New York.
+6. Retrieve customers whose first name starts with 'J'.
+7. Find customers aged between 25 and 35 (inclusive).
+8. Get female customers from Los Angeles or male customers from Chicago.
+9. List customers who are either from Miami or aged 50 or older.
+10. Find customers with names 'John' or 'Jane' and aged less than 30.

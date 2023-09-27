@@ -27,3 +27,11 @@ VALUES
  (3, 'Michael', 'Johnson', 'Finance', '2021-08-10', 55000),
  (4, 'Emily', 'Davis', 'Marketing', '2018-02-05', 52000),
  (5, 'David', 'Wilson', 'IT', '2022-03-30', 62000);
+
+Write SQL queries to answer the following questions using the employees table:
+1. Retrieve the first and last names of all employees.
+2. Find the total number of employees in the company.
+3. Get the names of employees who work in the IT department.
+4. Calculate the average salary of all employees.
+5. Find the employee with the highest salary.
+6. List the employees hired before January 1, 2021, along with their hire dates.

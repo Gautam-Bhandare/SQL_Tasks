@@ -1,0 +1,32 @@
+Dataset: Customer Information
+You have been given a dataset containing information about customers. The dataset includes the
+following columns:
+• customer_id (integer): Unique identifier for each customer.
+• first_name (string): First name of the customer.
+• last_name (string): Last name of the customer.
+• gender (string): Gender of the customer (e.g., 'Male' or 'Female').
+• city (string): The city where the customer resides.
+• age (integer): The age of the customer.
+Table Structure:
+Create a table named customers with the following structure:
+CREATE TABLE customers (
+ customer_id INT PRIMARY KEY,
+ first_name VARCHAR(50),
+ last_name VARCHAR(50),
+ gender VARCHAR(10),
+ city VARCHAR(50),
+ age INT
+);
+Insert Data: Insert the following sample data into the customers table:
+INSERT INTO customers (customer_id, first_name, last_name, gender, city, age)
+VALUES
+ (1, 'John', 'Doe', 'Male', 'New York', 35),
+ (2, 'Jane', 'Smith', 'Female', 'Los Angeles', 28),
+ (3, 'Michael', 'Johnson', 'Male', 'Chicago', 45),
+ (4, 'Emily', 'Davis', 'Female', 'Houston', 22),
+ (5, 'David', 'Wilson', 'Male', 'Miami', 40),
+ (6, 'Lisa', 'Brown', 'Female', 'New York', 32),
+ (7, 'William', 'Lee', 'Male', 'Los Angeles', 29),
+ (8, 'Sarah', 'White', 'Female', 'Chicago', 50),
+ (9, 'James', 'Harris', 'Male', 'Houston', 37),
+ (10, 'Maria', 'Martin', 'Female', 'Miami', 24);

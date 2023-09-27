@@ -32,3 +32,14 @@ VALUES
  (8, 108, 2, 'Widget B', 5, 12.50, '2023-01-19'),
  (9, 109, 1, 'Widget A', 1, 10.00, '2023-01-19'),
  (10, 101, 3, 'Widget C', 2, 15.75, '2023-01-20');
+
+Write SQL queries to answer the following questions using the sales table:
+1. Retrieve the total sales quantity and revenue for each product.
+2. Find the total revenue for each customer.
+3. Get the products with more than 10 units sold in a single order.
+4. List the customers who have placed orders on at least three different dates.
+5. Calculate the average unit price of products.
+6. Find the products with an average unit price greater than $12.00.
+7. Retrieve the customers who have spent more than $100.00 in total.
+8. List the customers who have purchased 'Widget B' and 'Widget A' in the same order.
+ (10, 101, 3, 'Widget C', 2, 15.75, '2023-01-20');

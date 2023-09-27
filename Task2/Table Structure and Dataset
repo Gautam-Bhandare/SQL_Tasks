@@ -1,0 +1,34 @@
+Dataset: Sales Information
+You have been given a dataset containing information about sales transactions. The dataset includes the
+following columns:
+• order_id (integer): Unique identifier for each order.
+• customer_id (integer): Unique identifier for each customer.
+• product_id (integer): Unique identifier for each product.
+• product_name (string): Name of the product.
+• quantity (integer): The quantity of the product sold.
+• unit_price (decimal): The unit price of the product.
+• order_date (date): The date when the order was placed.
+Table Structure:
+Create a table named sales with the following structure:
+CREATE TABLE sales (
+ order_id INT PRIMARY KEY,
+ customer_id INT,
+ product_id INT,
+ product_name VARCHAR(50),
+ quantity INT,
+ unit_price DECIMAL(10, 2),
+ order_date DATE
+);
+Insert Data: Insert the following sample data into the sales table:
+INSERT INTO sales (order_id, customer_id, product_id, product_name, quantity, unit_price, order_date)
+VALUES
+ (1, 101, 1, 'Widget A', 5, 10.00, '2023-01-15'),
+ (2, 102, 2, 'Widget B', 2, 12.50, '2023-01-16'),
+ (3, 103, 1, 'Widget A', 3, 10.00, '2023-01-16'),
+ (4, 104, 3, 'Widget C', 1, 15.75, '2023-01-17'),
+ (5, 105, 2, 'Widget B', 4, 12.50, '2023-01-17'),
+ (6, 106, 1, 'Widget A', 2, 10.00, '2023-01-18'),
+ (7, 107, 4, 'Widget D', 3, 20.00, '2023-01-18'),
+ (8, 108, 2, 'Widget B', 5, 12.50, '2023-01-19'),
+ (9, 109, 1, 'Widget A', 1, 10.00, '2023-01-19'),
+ (10, 101, 3, 'Widget C', 2, 15.75, '2023-01-20');
